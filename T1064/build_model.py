@@ -10,5 +10,5 @@ a = automodel(env,
               sequence='T1064',
               assess_methods=(assess.DOPE, assess.GA341))
 a.starting_model = 1
-a.ending_model = 1
+a.ending_model = 5
 a.make()
